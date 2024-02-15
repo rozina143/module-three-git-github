@@ -1,4 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
 .image img{
     width: 400px;
-    height: 400px;
+    height: 450px;
+}
+.container:hover .wish{
+    visibility: visible;
+}
+.container{
+    position: relative;
+}
+.wish{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0;
+    left:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(126, 14, 111, 0.582);
+    visibility: hidden;
 }
